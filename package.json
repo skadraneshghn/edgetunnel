@@ -6,8 +6,8 @@
     "node": "^18"
   },
   "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
+    "start": "node-vless:start",
+    "build": "node-vless:build",
     "cf-page": "nx build cf-page",
     "node-vless:build": "nx build cf-page --configuration=production && nx build node-vless --configurations=production",
     "node-vless:bunled": "nx build cf-page --configuration=production && nx build node-vless --configurations=production -- --externalDependencies=none",
