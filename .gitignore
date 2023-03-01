@@ -45,3 +45,5 @@ Thumbs.db
 
 **/.dev.vars
 wrangler.toml
+/dist
+.yarn
